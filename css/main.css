@@ -13,17 +13,15 @@
 }
 
 body{
-  margin: 0;
 }
 
 .nav-row{
 display: flex;
 justify-content: space-around;
-width: 1280px;
+/*width: 1280px;*/
 background: rgba(0, 0, 0, 0.8);
 font-size: 15px;
 text-align: center;
-height: 45px;
 color: #FFFFFF
 }
 
@@ -49,19 +47,20 @@ a{
 .page-header{
   background-image: url('../img/header-img.jpg');
   height: 560px;
-  width: 1280px;
+  /*width: 1280px;*/
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .header-content{
   position: relative;
-  top: 100px;
   margin: 0 auto;
+  top: 100px;
   width: 800px;
   padding: 10px;
-  text-align: center;
+  text-align: center
 }
 
 .main-heading{
@@ -76,17 +75,48 @@ a{
   color: #FFFFFF
 }
 
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(255, 250, 236);
+  margin: 0 50px;
+  align-items: flex-start;
+}
+
+
+
+#dino{
+  background-image: url('../img/dino.jpg');
+  background-size: cover;
+  width: 130px;
+  height: 130px;
+}
+
+#xx{
+  background-image: url('../img/xx.png');
+}
+
+#yhact-img{
+  background-image: url('../img/yhact.jpg');
+}
+
+#bio{
+  background-image: url('../img/author.jpegß');
+}
 .item{
-  width: 620px;
-padding: 10px;
-border: 5px solid gray;
-margin: 10px;
-justify-content: center;
+  background-color: #FFFFFF;
+  padding: 20px;
+  position: relative;
+  margin: 50px 50px;
+  width: 420px;
 }
 
 aside{
   width: 220px;
-  padding: 10px;
+  padding: 25px;
   border: 5px solid gray;
-  margin: 10px;
+  position: relative;
+  margin-top: 25px;
+
 }
