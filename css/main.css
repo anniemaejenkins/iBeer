@@ -12,9 +12,6 @@
   background: transparent;
 }
 
-body{
-}
-
 .nav-row{
 display: flex;
 justify-content: space-around;
@@ -72,7 +69,7 @@ a{
 .sub-heading{
   font-size: 100px;
   font-family: 'Dancing Script';
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 main{
@@ -82,27 +79,52 @@ main{
   background-color: rgb(255, 250, 236);
   margin: 0 50px;
   align-items: flex-start;
+  box-shadow: 0px 2px 5px #000;
 }
 
+.icon-wrapper{
+  text-align: center;
+}
 
+.meta{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  margin: 10px 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans';
+}
 
 #dino{
   background-image: url('../img/dino.jpg');
   background-size: cover;
   width: 130px;
   height: 130px;
+  float: right;
 }
 
 #xx{
   background-image: url('../img/xx.png');
+  background-size: cover;
+  width: 130px;
+  height: 130px;
+  float: right;
 }
 
 #yhact-img{
   background-image: url('../img/yhact.jpg');
+  background-size: cover;
+  width: 130px;
+  height: 130px;
+  float: right;
 }
 
 #bio{
   background-image: url('../img/author.jpegß');
+  background-size: cover;
+  border-radius: 50%
 }
 .item{
   background-color: #FFFFFF;
@@ -110,13 +132,28 @@ main{
   position: relative;
   margin: 50px 50px;
   width: 420px;
+  box-shadow: 0px 2px 5px #000;
+}
+
+h4{
+  font-family: 'Josefin Sans';
+  font-weight: bolder;
+}
+
+p{
+  font-size: 12px;
+  line-height: 18px;
 }
 
 aside{
   width: 220px;
   padding: 25px;
-  border: 5px solid gray;
   position: relative;
   margin-top: 25px;
+  margin-right: 25px;
+  background-color: rgb(239, 234, 224);
+  box-shadow: 0px 2px 5px #000;
+  text-align: left;
+
 
 }
